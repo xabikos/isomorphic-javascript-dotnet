@@ -1,0 +1,5 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@Html.React("About", new { title = ViewBag.Title, message = ViewBag.Message }, serverOnly: true)
