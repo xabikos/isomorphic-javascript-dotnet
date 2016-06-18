@@ -1,0 +1,2 @@
+## ASP.NET application with Reactjs.NET
+This is an example application of how to use the [Reactjs.NET](http://reactjs.net/) library in an well known asp.net application. The only thing you have to do is to open the solution with Visual Studio launch the applicaion and browse the about page. There you will see that the result in that page is rendered by Reactjs.NET and it's a react component. This is a very good example on how we can use Reactjs without even having [node.js](https://nodejs.org/en/) in our system or knowing anything about Webpack.

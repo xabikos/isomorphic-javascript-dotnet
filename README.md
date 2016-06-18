@@ -1,2 +1,6 @@
-# isomorphic-javascript-dotnet
-The repository contains the source code for my presentation during the Progressive .NET conference in 2016
+## Isomorphic JavaScript application with .net and .net core
+The repository contains the source code of the demos for my presentation, [Isomorphic JavaScript applications and .NET](https://skillsmatter.com/conferences/7235-progressive-dot-net-tutorials-2016#program), during the [Progressive .NET 2016](https://skillsmatter.com/conferences/7235-progressive-dot-net-tutorials-2016) conference. During the presentation was demonstrated various [Isomorphic JavaScript Applications](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) in both full .net framework and .net core as well. Some of the technologies used for the demos are [Reactjs.NET,](http://reactjs.net/) [JavaScript Services](https://github.com/aspnet/JavaScriptServices) library by Microsoft and [Webpack](https://webpack.github.io/).
+
+## Demos
+* [ReactNet](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/ReactNet) it's simple demonstration on how we can use the Reactjs.NET library in a self contain way to render React.js components in both server and client side.
+* [ReactNetWebpack](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/ReactNetWebpack) this is a more advanced application which again uses Reactjs.NET but in combination with Webpack, which tremendously increases the experience during development.
