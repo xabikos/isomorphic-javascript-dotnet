@@ -1,0 +1,21 @@
+﻿@using ReactNetWebpack.Extensions
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @if (!Html.IsDebug()) {
+      <link rel="stylesheet" href="~/dist/client.min.css" />
+    }
+  </head>
+  <body>
+    @RenderBody()
+    @if (Html.IsDebug()) {
+      <script type="text/javascript" src="http://localhost:3000/client.bundle.js"></script>
+    } else {
+      <script type="text/javascript" src="~/dist/client.bundle.min.js"></script>
+    }
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "id-length": [2, {"min": 2, "properties": "never", "exceptions": ["_", "e"]}],
+    "max-len": [2, 120, 2, {"ignoreComments": true, "ignoreUrls": true}],
+    "object-curly-spacing": [2, "never"],
+    "react/jsx-curly-spacing": 2,
+    "react/no-direct-mutation-state": 2
+  }
+}
