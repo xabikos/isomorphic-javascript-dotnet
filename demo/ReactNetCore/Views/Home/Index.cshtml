@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="react-app" asp-prerender-module="ClientApp/boot-server"
+     asp-prerender-webpack-config="webpack.config.js">Loading...</div>
+
+@section scripts {
+    <environment names="Development">
+      <script src="~/dist/main.js" asp-append-version="true"></script>
+    </environment>
+    <environment names="Staging,Production">
+      <script src="~/dist/main.min.js" asp-append-version="true"></script>
+    </environment>
+}
