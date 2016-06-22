@@ -4,3 +4,5 @@ The repository contains the source code of the demos for my presentation, [Isomo
 ## Demos
 * [ReactNet](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/ReactNet) it's simple demonstration on how we can use the Reactjs.NET library in a self contain way to render React.js components in both server and client side.
 * [ReactNetWebpack](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/ReactNetWebpack) this is a more advanced application which again uses Reactjs.NET but in combination with Webpack, which tremendously increases the experience during development.
+* [Angular2 .net core](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/Angular2NetCore) this is an example application of how to use Angular 2 in an ASP.NET Core web application with Webpack.
+* [Reactjs .net core](https://github.com/xabikos/isomorphic-javascript-dotnet/tree/master/demo/ReactNetCore) this is an example application of how to use React with Redux in an ASP.NET Core web application with Webpack.
